@@ -12,11 +12,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      //TODO change title
-      title: 'Template',
-      theme: Themes.light,
-      home: const AppShell(),
-    );
+    return MaterialApp(title: 'Habit Tracker', theme: Themes.light, home: const AppShell());
   }
 }
